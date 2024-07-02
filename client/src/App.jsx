@@ -34,13 +34,13 @@ export default function App() {
 
   return (
     <main className="container">
-      <h1 className="title">Awesome Todos</h1>
+      <h1 className="title">My To-Do List</h1>
       <form className="form" onSubmit={createNewTodo}>
         <input 
         type="text"
         value={content}
         onChange={(e) => setContent(e.target.value)}
-        placeholder="Enter a new todo..."
+        placeholder="Enter a new to-do..."
         className="form__input"
         required 
         />
